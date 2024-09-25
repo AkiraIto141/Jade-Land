@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0c25;
+    color: #fff;
+    text-align: center;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa {
+    background-color: #1e1c2e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, button {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #2e2a40;
+    color: #b6b6b6;
+}
+
+input[type="submit"], button {
+    background-color: #86f386;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #76d376;
+}
+
+h1 {
+    color: #fff;
+}
+
+
+a {
+    text-decoration: none;
+    color: #291be9; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6e65e7; 
+}
+
+a:active {
+    color: #09f709; 
+}
+.arte_logo img {
+    max-width: 150px;
+    max-height: 200px;
+  }
+.arte_logo{
+    margin-top: px;
+}

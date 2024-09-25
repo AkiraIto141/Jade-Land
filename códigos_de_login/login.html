@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-ico" href="./img/icon.png">
+    <title>Jade Land - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="arte_logo">
+        <img class="logo" src="./img/arte_visual.png" alt="">
+    </div>
+    <div id="login">
+        <div class="caixa">
+            <h1>LOGIN</h1>
+            <form id="loginForm">
+                <div class="email">
+                    <input type="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="senha">
+                    <input type="password" id="senha" placeholder="Senha" required>
+                </div>
+                <div class="entrar">
+                    <button id="entrarBtn">Entrar</button>
+                </div>
+            </form>
+            <p id="errorMessage" style="color: red; display: none;">E-mail ou senha incorretos!</p>
+            <p>Ainda não tem uma conta? <a href="cadastro.html">Crie uma.</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
